@@ -10,26 +10,26 @@ jobs:
 
     runs-on: ubuntu-latest
 
-    strategy:
-      matrix:
-        node-version: [16.x]
-
     steps:
     - name: Checkout
       uses: actions/checkout@v3
 
-    - name: Use Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v3
+    - name: Cache pnpm modules
+      uses: actions/cache@v2
       with:
-        node-version: ${{ matrix.node-version }}
+        path: ~/.pnpm-store
+        key: ${{ runner.os }}-${{ hashFiles('**/pnpm-lock.yaml') }}
+        restore-keys: |
+          ${{ runner.os }}-
 
     - name: Setup PNPM
-      uses: pnpm/action-setup@v2.2.1
+      uses: pnpm/action-setup@v2.1.0
+      with:
+        version: 6.32.6
+        run_install: true
 
-    - name: Install and Build
-      run: |
-        pnpm i
-        pnpm run build
+    - name: Build
+      run: pnpm run build
 
     - name: Setup Aliyun OSS
       uses: manyuanrong/setup-ossutil@master
