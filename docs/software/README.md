@@ -25,18 +25,18 @@ title: 软件
 
 - 常用操作
 
-  1. 初次配置
+  - 初次配置
 
-     ```bash
-     git config --global user.name "John Doe"
-     git config --global user.email johndoe@example.com
+    ```bash
+    git config --global user.name "John Doe"
+    git config --global user.email johndoe@example.com
 
-     # Windows 平台下 CRLF 问题
-     git config --global core.autocrlf input
-     ```
+    # Windows 平台下 CRLF 问题
+    git config --global core.autocrlf input
+    ```
 
-  2. 生成 ssh 密钥
+  - 生成 ssh 密钥
 
-     ```bash
-     ssh-keygen -t ed25519 -C "your_email@example.com"
-     ```
+    ```bash
+    ssh-keygen -t ed25519 -C "your_email@example.com"
+    ```
