@@ -5,7 +5,7 @@ export default defineUserConfig<DefaultThemeOptions>({
   base: '/',
   lang: 'zh-CN',
   title: '清单',
-  description: '清单',
+  description: '网站 🎉 软件 ✨ 配置',
   head: [['link', { rel: 'icon', href: '/logo.svg', type: 'image/svg+xml' }]],
   theme: '@vuepress/theme-default',
   themeConfig: {
