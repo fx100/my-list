@@ -2,8 +2,11 @@ import { defineUserConfig } from 'vuepress'
 import type { DefaultThemeOptions } from 'vuepress'
 
 export default defineUserConfig<DefaultThemeOptions>({
+  base: '/',
   lang: 'zh-CN',
   title: '清单',
+  description: '清单',
+  head: [['link', { rel: 'icon', href: '/logo.svg' }]],
   theme: '@vuepress/theme-default',
   themeConfig: {
     logo: '/logo.svg',
@@ -21,5 +24,7 @@ export default defineUserConfig<DefaultThemeOptions>({
         link: '/software/',
       },
     ],
+    lastUpdatedText: '最后更新',
+    contributorsText: '贡献值',
   },
 })
