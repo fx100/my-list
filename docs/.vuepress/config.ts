@@ -6,7 +6,7 @@ export default defineUserConfig<DefaultThemeOptions>({
   lang: 'zh-CN',
   title: '清单',
   description: '清单',
-  head: [['link', { rel: 'icon', href: '/logo.svg' }]],
+  head: [['link', { rel: 'icon', href: '/logo.svg', type: 'image/svg+xml' }]],
   theme: '@vuepress/theme-default',
   themeConfig: {
     logo: '/logo.svg',
