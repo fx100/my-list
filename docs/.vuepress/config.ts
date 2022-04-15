@@ -12,10 +12,6 @@ export default defineUserConfig<DefaultThemeOptions>({
     logo: '/logo.svg',
     navbar: [
       {
-        text: '首页',
-        link: '/',
-      },
-      {
         text: '网站',
         link: '/website/',
       },
