@@ -55,3 +55,7 @@ title: 软件
 > 有 Windows 和 Mac 版，暂无 Linux 版
 >
 > Windows 10/11 可以从 Microsoft Store 获取
+
+### 7-Zip
+
+网址: [https://www.7-zip.org/](https://www.7-zip.org/)
