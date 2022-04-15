@@ -43,3 +43,15 @@ title: 软件
   - [1Password for Android](https://play.google.com/store/apps/details?id=com.agilebits.onepassword) 需要 Android 5.0 或更高版本。
   ---
   - [1Password for Chrome](https://chrome.google.com/webstore/detail/1password-x/aeblfdkhhhdcdjpifhhbdiojplfjncoa)
+
+## 系统软件
+
+### Snipaste
+
+截图 + 贴图
+
+网址: [https://www.snipaste.com/](https://www.snipaste.com/)
+
+> 有 Windows 和 Mac 版，暂无 Linux 版
+>
+> Windows 10/11 可以从 Microsoft Store 获取
