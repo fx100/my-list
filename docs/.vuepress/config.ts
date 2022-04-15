@@ -26,5 +26,6 @@ export default defineUserConfig<DefaultThemeOptions>({
     ],
     lastUpdatedText: '最后更新',
     contributorsText: '贡献值',
+    backToHome: '打开首页',
   },
 })
